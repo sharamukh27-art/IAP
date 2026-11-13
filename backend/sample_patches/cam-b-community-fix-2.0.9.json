@@ -1,0 +1,31 @@
+{
+  "format": "iap-synthetic-firmware-v1",
+  "device_model": "Aster View S",
+  "hardware_revision": "1.1",
+  "firmware_version": "2.0.9-community.1",
+  "vulnerabilities_fixed": [
+    "SIM-VULN-CAM-B-01",
+    "SIM-VULN-CAM-B-02"
+  ],
+  "suspicious_indicators": [],
+  "simulated_firmware": {
+    "preserved_features": [
+      "boot",
+      "network_connectivity",
+      "camera_stream",
+      "settings_persistence"
+    ],
+    "regression_failures": [],
+    "security_behaviours": {
+      "authentication_required": true,
+      "encrypted_control_channel": true,
+      "signed_update_enforcement": true
+    }
+  },
+  "rollback": {
+    "available": true,
+    "firmware_version": "2.0.8",
+    "payload": "SYNTHETIC_ROLLBACK_IMAGE_CAM_B_2_0_8"
+  },
+  "payload": "SIMULATED_FIRMWARE_IMAGE_CAM_B_2_0_9_COMMUNITY"
+}

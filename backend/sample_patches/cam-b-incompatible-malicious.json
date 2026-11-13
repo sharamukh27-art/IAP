@@ -1,0 +1,29 @@
+{
+  "format": "iap-synthetic-firmware-v1",
+  "device_model": "Different Camera X",
+  "hardware_revision": "9.9",
+  "firmware_version": "0.0.1",
+  "vulnerabilities_fixed": [],
+  "suspicious_indicators": [
+    "MALWARE_INDICATOR: simulated reverse shell"
+  ],
+  "simulated_firmware": {
+    "preserved_features": [
+      "boot"
+    ],
+    "regression_failures": [
+      "camera_stream_broken"
+    ],
+    "security_behaviours": {
+      "authentication_required": false,
+      "encrypted_control_channel": false,
+      "signed_update_enforcement": false
+    }
+  },
+  "rollback": {
+    "available": false,
+    "firmware_version": "",
+    "payload": ""
+  },
+  "payload": "SIMULATED_MALWARE_INDICATOR_REVERSE_SHELL"
+}

@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+node_modules/
+dist/
+*.tsbuildinfo
+backend/storage/patches/
+backend/storage/keys/
+chain/node_modules/
+chain/artifacts/
+chain/cache/
+backend/app/blockchain_deployment.json
+.DS_Store
